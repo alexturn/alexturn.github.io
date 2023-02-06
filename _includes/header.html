@@ -53,6 +53,14 @@
               </li>
 
               <!-- Other pages -->
+               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/assets/pdf/Alex_CV.pdf' | relative_url }}">
+              cv
+              {% if page.title == "blog" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}

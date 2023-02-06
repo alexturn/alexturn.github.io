@@ -2,11 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+##### Graduate Courses at <a href="https://ist.ac.at/en/home/">IST Austria</a> 
 
-Organize your courses by years, topics, or universities, however you like!
+
+- **Data Science Track Core Course** (Spring 2021)
+*Teaching Assistant*
+- **Information Theory** (Fall 2021)
+*Teaching Assistant*
+
+##### Undergrad Courses at  <a href="https://cs.hse.ru/en/">CS HSE</a> 
+
+
+- **Machine Learning** (Fall 2017 - Spring 2018)
+*Teaching Assistant*
+- **Mathematical Analysis** (Spring 2017)
+*Teaching Assistant*
